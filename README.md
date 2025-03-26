@@ -3,6 +3,9 @@ This creates a desync with the gameplay tags applied to a player in the client
 
 Video: https://youtu.be/RhCOaVvR844
 
+### Steps to reproduce
+
+Playing as client:
 1. The project has a character with an ability system component and two abilities:
    - GA_DummyAbility that grants the Debug.Test gameplay tag via ActivationOwnedTags
    - GA_PlayMontage that plays a montage but is blocked by Debug.Test
